@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Reggea_One', Arial, Helvetica, sans-serif;
+  src: url(/style/font/Reggae_One/ReggaeOne-Regular.ttf)
+}
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  font-family: 'Reggea_One';
+  background-color: black;
+  background-size: cover;
+}
+nav {
+    margin: 13px;
+    margin: auto;
+  }
+  
+  nav ul {
+    padding-inline-start: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: silver;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+main h3 {
+  display: flex;
+  font-family: "OhenFont";
+  justify-content: center;
+  letter-spacing: 1.1rem;
+  color: silver;
+}

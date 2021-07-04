@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "MainFont";
+    src: url( "font/Cormorant_Unicase/CormorantUnicase-Light.ttf" );
+  }
+  html {
+    height: 100%;
+  }
+  body {
+    display: grid;
+    font-family: "MainFont";
+    background-color: black;
+    background-size: cover;
+    background-image: url("../images/Leaf.jpg");
+  }
+  main h1 {
+    display: flex;
+    font-family: "MainFont";
+    justify-content: center;
+    margin-top: 7%;
+    font-size: 7rem;
+    font-weight: 50;
+    letter-spacing: 0.1rem;
+    color: white;
+  }
+  main h3 {
+    display: flex;
+    font-family: "MainFont";
+    justify-content: center;
+    letter-spacing: 0.1rem;
+    font-size:3rem ;
+    color: white;
+  }
+  main a {
+    display: flex;
+    justify-content: center;
+    font-family: "MainFont";
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  nav {
+    margin: 13px;
+    margin: auto;
+  }
+  
+  nav ul {
+    padding-inline-start: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: silver;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  a:hover,
+  a:active {
+    color: rgb(180, 250, 75);
+  }
+  
+ 
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+  }
+  
